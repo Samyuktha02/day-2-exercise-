@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise</title>
+</head>
+<body>
+    <h1 style="text-decoration: underline;">date</h1>
+
+    <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        click me</button>
+    <p id="demo"></p>
+
+
+<!-- ---------------------------click to change--------------------------------------- -->
+
+<h1 style="text-decoration: underline;">click to change</h1>
+<p id="demo1">hello samyuktha</p>
+<button type="button" onclick="myfunction()">
+    click me
+</button>
+
+
+
+<!-- -------------------bulb----------------------------------------------- -->
+
+
+<h1 style="text-decoration: underline;">bulb</h1>
+
+<button type="button" onclick="bulbon()">click to on</button>
+<img id="bulboff" src="images/pic_bulboff.gif" style="width: 100px;">
+<button type="button" onclick="bulboff()">click to off</button>
+
+
+<!-- ----------------------font-------------------------------------------- -->
+<h1 style="text-decoration: underline;">font size</h1>
+<button type="button" onclick="font()">
+click me</button>
+<p id="demo2">hello I'm samyuktha</p>
+
+
+<!-- --------------------display---------------------------------------------- -->
+
+<h1 style="text-decoration: underline;">display</h1>
+<p id="demo3" style="display: none;">hello</p>
+<button type="button" onclick="display()">click me</button>
+
+
+
+<!-- ------------------------sum------------------------------------------ -->
+
+<h1 style="text-decoration: underline;">sum</h1>
+<p id="demo4"></p>
+
+
+<!-- ------------------------sum using let------------------------------------------ -->
+
+
+<h1 style="text-decoration: underline;">sum</h1>
+<p id="demo5"></p>
+
+
+
+<!-- ------------------------console------------------------------------------ -->
+
+<h1 style="text-decoration: underline;">console</h1>
+
+
+<!-- ------------------------add/sub------------------------------------------ -->
+
+<h1 style="text-decoration: underline;">add/sub</h1>
+<form action="">
+ num 1 : <input type="text" id="firstnum">
+ num 2 : <input type="text" id="lastnum">
+ <button type="button" onclick="add()">add</button>
+ <button type="button" onclick="sub()">sub</button>
+ <button type="button" onclick="mul()">mul</button>
+ <button type="button" onclick="div()">div</button>
+</form>
+<p id="result">result is</p>
+
+<!-- ------------------------click------------------------------------------ -->
+<h1 style="text-decoration: underline;">click to change</h1>
+<img id="imageid" onclick="changeimage()" src="images/rosebud.jpg" width="180px" height="180px" alt="">
+</body>
+<script src="script.js"></script>
+</html>
